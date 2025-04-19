@@ -1,0 +1,92 @@
+
+  
+.app-container {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom, #dbeafe, #f0f9ff);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\Users\ssara\weatherapp\public\image.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  .weather-app {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 65%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    background-color: #f0f0f0;
+  }
+  
+  .search-box button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+  }
+  
+  .weather-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+ 
+  
