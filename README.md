@@ -31,7 +31,7 @@ Basic styling using external or inline CSS
 
 ```
 import React, { useState } from "react";
-import "./App.css"; // Importing CSS for styles and cloud animation
+import "./App.css"; 
 
 const mockWeatherData = {
   "New York": { temperature: "18°C", wind: "10 km/h", condition: "Sunny" },
